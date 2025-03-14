@@ -1,0 +1,150 @@
+{
+    "Spearman": {
+        "glms_all": {
+            "rho_score": 0.097821556,
+            "AIDO_score": 0.205762233,
+            "rinalmo_score": 0.0661,
+            "rnafm_score": 0.04543098,
+            "rnabert_score": 0.032609555,
+            "rnamsm_score": 0.121648119,
+            "grover_score": -0.039158938,
+            "gena_score": -0.042445373,
+            "nt_score": 0.00684666,
+            "evo_score": 0.051893286
+        },
+        "Okra": {
+            "rho_score": 0.307343294,
+            "AIDO_score": 0.275325162,
+            "rinalmo_score": 0.2921,
+            "rnafm_score": 0.378104239,
+            "rnabert_score": 0.112589888,
+            "rnamsm_score": -0.166603246,
+            "grover_score": -0.040726532,
+            "gena_score": -0.328228481,
+            "nt_score": -0.203175197,
+            "evo_score": 0.055814437
+        },
+        "P-tRNA": {
+            "rho_score": 0.439637654,
+            "AIDO_score": 0.500541418,
+            "rinalmo_score": 0.3934,
+            "rnafm_score": 0.251248924,
+            "rnabert_score": 0.197408159,
+            "rnamsm_score": 0.247556944,
+            "grover_score": 0.026057338,
+            "gena_score": -0.048344694,
+            "nt_score": 0.052962511,
+            "evo_score": 0.420698212
+        },
+        "Pepper": {
+            "rho_score": 0.199604854,
+            "AIDO_score": -0.06363412,
+            "rinalmo_score": 0.222,
+            "rnafm_score": -0.002348292,
+            "rnabert_score": 0.011757146,
+            "rnamsm_score": -0.004420315,
+            "grover_score": 0.048024882,
+            "gena_score": -0.048209062,
+            "nt_score": -0.149784219,
+            "evo_score": 0.024058486
+        },
+        "tRNA": {
+            "rho_score": 0.122149955,
+            "AIDO_score": 0.160210364,
+            "rinalmo_score": 0.6507,
+            "rnafm_score": 0.100511318,
+            "rnabert_score": 0.046809704,
+            "rnamsm_score": 0.152933324,
+            "grover_score": -0.01213999,
+            "gena_score": 0.091981907,
+            "nt_score": 0.111867722,
+            "evo_score": 0.002277491
+        },
+        "Clivia": {
+            "rho_score": 0.317324268,
+            "AIDO_score": -0.243335808,
+            "rinalmo_score": -0.0416,
+            "rnafm_score": 0.152384901,
+            "rnabert_score": 0.383330908,
+            "rnamsm_score": 0.071953862,
+            "grover_score": 0.161168481,
+            "gena_score": 0.019711988,
+            "nt_score": 0.204519423,
+            "evo_score": 0.128434325
+        }
+    },
+    "Pearson": {
+        "glms_all": {
+            "rho_score": 0.091539438,
+            "AIDO_score": 0.135287084,
+            "rinalmo_score": 0.0463,
+            "rnafm_score": -0.008538666,
+            "rnabert_score": 0.063941027,
+            "rnamsm_score": 0.144262664,
+            "grover_score": -0.029286679,
+            "gena_score": -0.017494265,
+            "nt_score": 0.015379459,
+            "evo_score": -0.025063764
+        },
+        "Okra": {
+            "rho_score": 0.264382151,
+            "AIDO_score": 0.271353114,
+            "rinalmo_score": 0.2599,
+            "rnafm_score": 0.367433279,
+            "rnabert_score": -0.018373625,
+            "rnamsm_score": -0.218829094,
+            "grover_score": -0.194283967,
+            "gena_score": -0.128468715,
+            "nt_score": -0.271971982,
+            "evo_score": -0.13422139
+        },
+        "Pairwised-tRNA": {
+            "rho_score": 0.434172761,
+            "AIDO_score": 0.484806799,
+            "rinalmo_score": 0.385,
+            "rnafm_score": 0.235673078,
+            "rnabert_score": 0.198681534,
+            "rnamsm_score": 0.220556154,
+            "grover_score": 0.046175414,
+            "gena_score": -0.103717554,
+            "nt_score": 0.052097328,
+            "evo_score": 0.42858081
+        },
+        "Pepper": {
+            "rho_score": 0.248292003,
+            "AIDO_score": -0.083644263,
+            "rinalmo_score": 0.1586,
+            "rnafm_score": 0.04496279,
+            "rnabert_score": -0.016097041,
+            "rnamsm_score": -0.033089649,
+            "grover_score": 0.042185839,
+            "gena_score": -0.056093088,
+            "nt_score": -0.150609559,
+            "evo_score": 0.000876084
+        },
+        "tRNA": {
+            "rho_score": 0.031950924,
+            "AIDO_score": 0.125269839,
+            "rinalmo_score": 0.5835,
+            "rnafm_score": 0.060801265,
+            "rnabert_score": 0.020906928,
+            "rnamsm_score": 0.080503947,
+            "grover_score": 0.084231895,
+            "gena_score": 0.110082237,
+            "nt_score": 0.13257322,
+            "evo_score": 0.086387933
+        },
+        "Clivia": {
+            "rho_score": 0.353170117,
+            "AIDO_score": -0.155151484,
+            "rinalmo_score": -0.0075,
+            "rnafm_score": 0.184874154,
+            "rnabert_score": 0.354997764,
+            "rnamsm_score": 0.230874301,
+            "grover_score": 0.116577471,
+            "gena_score": 0.064886107,
+            "nt_score": 0.119300923,
+            "evo_score": 0.063042908
+        }
+    }
+}
