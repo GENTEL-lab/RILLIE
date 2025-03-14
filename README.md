@@ -37,27 +37,75 @@ conda activate RILLIE
 ### You can also install the environment either by following the step-by-step instructions below.
 ```bash
 # Create a conda environment
-conda create -y -n RILLIE python=3.9
+conda create -y -n RILLIE python=3.10
 conda activate RILLIE
 
 # Install PyTorch and CUDA dependencies
-#conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=12.1 -c pytorch -c nvidia
-pip install torch==2.3.0+cu121 torchvision==0.18.0+cu121 torchaudio==2.3.0+cu121
+pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121
 
-# Install other dependencies
-pip install rna-fm==0.2.2
-pip install ml-collections==0.1.1
-pip install simtk==0.1.0
-pip install openmm==8.1.1
-pip install torchdrug==0.2.1
-pip install torch-geometric==2.5.3
-pip install equiformer-pytorch
-pip install rdkit-pypi==2021.3.4
-pip install biopython==1.84
-pip install pandas==2.2.2
-pip install scikit-learn==1.5.1
-pip install prody==2.4.1
+# Install PyTorch Geometric and related dependencies
+pip install torch-geometric==2.6.1 torch-scatter==2.1.2+pt21cu121
 
+# Install Bioinformatics and Structural Biology packages
+pip install \
+    biopython==1.84 \
+    bio==1.7.1 \
+    biothings-client==0.3.1 \
+    biotite==1.1.0 \
+    biotraj==1.2.2 \
+    mygene==3.2.2 \
+    prody==2.4.1 \
+    pymatgen==2024.8.9 \
+    spglib==2.5.0 \
+    openmm==8.1.1 \
+    simtk==0.1.0 \
+    rdkit-pypi==2021.3.4 
+
+# Install Machine Learning and Deep Learning dependencies
+pip install \
+    scikit-learn==1.6.0 \
+    torchdrug==0.2.1 \
+    transformers==4.47.0 \
+    pytorch-lightning==2.4.0 \
+    lightning==2.4.0 \
+    torchmetrics==1.6.0 \
+    peft==0.14.0
+
+# Install Data Processing and Computation Libraries
+pip install \
+    numpy==1.26.3 \
+    scipy==1.14.1 \
+    pandas==2.2.2 \
+    numba==0.60.0 \
+    sympy==1.12 \
+    tqdm==4.66.5 \
+    joblib==1.4.2 \
+    threadpoolctl==3.5.0 
+
+# Install Visualization Tools
+pip install \
+    matplotlib==3.9.2 \
+    seaborn==0.13.2 \
+    plotly==5.23.0 \
+    bokeh==3.6.2 \
+    datashader==0.16.3 \
+    holoviews==1.20.0 
+
+# Install Web & API Utilities
+pip install \
+    requests==2.32.3 \
+    aiohttp==3.11.10 \
+    huggingface-hub==0.26.5 \
+    pyyaml==6.0.2 \
+    urllib3==1.26.13 
+
+# Install Miscellaneous Tools
+pip install \
+    rna-fm==0.2.2 \
+    ml-collections==0.1.1 \
+    uncertainties==3.2.2 \
+    markdown==3.7 \
+    jsonargparse==4.34.1
 ```
 
 <!--```bash
